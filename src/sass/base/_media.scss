@@ -1,0 +1,112 @@
+@media (max-width: 1200px) {
+    .promo {
+        &__header {
+            font-size: 39px;
+            line-height: 22px;
+        }
+        &__subheader {
+            margin-top: 12px;
+            font-size: 22px;
+        }
+    }
+
+}
+@media (max-width: 991px) {
+    .header {
+        padding: 0 20px;
+    }
+    .promo {
+        &__wrapper {
+            padding: 0 20px;
+        }
+        &__header {
+            font-size: 28px;
+            line-height: 10px;
+        }
+        &__subheader {
+            margin-top: 12px;
+            font-size: 22px;
+        }
+        &__icons {
+            margin-top: 40px;
+        }
+        &_icon {
+            width: 110px;
+            img {
+                height: 40px;
+            }
+        }
+    }
+    .consultation {
+        padding: 100px 20px 108px 20px;
+    }
+    .title {
+        &_left {
+            line-height: 40px;
+            font-size: 32px;
+        }
+    }
+
+}
+@media (max-width: 767px) {
+    .header {
+        &__official {
+            display: none;
+        }
+    }
+    .button_main {
+        margin-bottom: 5px;
+    }
+    .promo {
+        &__wrapper {
+            align-items: center
+        }
+    }
+    .advantages {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
+@media (max-width: 575px) {
+    .header {
+        display: flex;
+        justify-content: center;
+        &__contacts {
+            display: none;
+        }
+    }
+    .button_main {
+        width: 270px;
+        height: 45px;
+    }
+    .promo {
+        &__header {
+            font-size: 21px;
+        }
+        &__subheader {
+            font-size: 16px;
+            text-align: center;
+        }
+        &__icons {
+            flex-direction: column;
+            align-items: center;
+        }
+        &_icon {
+            margin-top: 15px;
+        }
+    }
+    .consultation {
+        padding: 50px 15px 80px 15px;
+    }
+    .title {
+        &_left {
+            line-height: 40px;
+            font-size: 32px;
+        }
+    }
+    .feed-form {
+        width: 285px;
+    }
+}
