@@ -2,10 +2,10 @@
     padding: 81px 0;
     &__inner {
         position: relative;
-        width: 750px;
+        width: 700px;
         margin: 0 auto;
     }
-    .slick-prev, .slick-next {
+    .prev, .next {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
@@ -17,8 +17,14 @@
             height: 50px;
         }
     }
-    .slick-next {
+    .next {
         right: -66px;
         left: auto;
+    }
+    .tns-item {
+        img {
+            display: block;
+            margin: 0 auto;
+        }
     }
 }
