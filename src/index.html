@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.min.css">
     <title>Pulse</title>
 </head>
 <body>
-    <section class="promo">
+    <section id="up" class="promo">
         <div class="container">
             <header class="header">
                 <a href="" class="header__logo">
@@ -70,7 +71,7 @@
                         соревнованиям по триатлону!</div>
                 </div>
                 <div class="advantages__item">
-                    <img src="icons/heart.png" alt="heart" class="advantages_icon">
+                    <img src="icons/heart.png" alt="heart" class="advantages_icon advantages_icon_animated">
                     <div class="advantages_subtitle">Заботимся о здоровье</div>
                     <div class="advantages_descr">
                         Мы работаем для того, 
@@ -383,7 +384,7 @@
         <div class="container">
             <h2 class="title">Отзывы клиентов</h2>
             <div class="reviews__wrapper">
-                <div class="reviews__item">
+                <div class="reviews__item fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                     <img src="img/review_1.png" alt="" class="reviews__img">
                     <div class="reviews__item__content">
                         <div class="reviews__name">Ирина Иванченко</div>
@@ -398,7 +399,7 @@
                             Спасибо, RunSmart! </div>
                     </div>
                 </div>
-                <div class="reviews__item">
+                <div class="reviews__item fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                     <img src="img/review_2.png" alt="" class="reviews__img">
                     <div class="reviews__item__content">
                         <div class="reviews__name">Иван Сёмочкин</div>
@@ -413,7 +414,7 @@
                         С ними подготовился к своему первому полумарафону! Спасибо!!!</div>
                     </div>
                 </div>
-                <div class="reviews__item">
+                <div class="reviews__item fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
                     <img src="img/review_3.png" alt="" class="reviews__img">
                     <div class="reviews__item__content">
                         <div class="reviews__name">Юлия Дашкина</div>
@@ -480,13 +481,17 @@
             <div class="modal__subtitle">Спасибо за вашу заявку!</div>
             <div class="modal__descr">Наш менеджер свяжется с вами <br>в ближайшее время!</div>
         </div>
-
     </div>
+
+    <a href="#up" class="pageup">
+        <img src="icons/up.svg" alt="up">
+    </a>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 
 </body>

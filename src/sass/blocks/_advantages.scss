@@ -21,4 +21,12 @@
         font-size: 14px;
         margin-top: 20px;
     }
+    &_icon {
+        &_animated {
+            animation: heartbeat 1.5s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+    }
 }
